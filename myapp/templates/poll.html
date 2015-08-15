@@ -1,0 +1,7 @@
+<h1>{{ poll.question }}</h1>
+
+{% for choice in choices %}
+  <p>{{ choice.choice }}</p>
+{% empty %}
+  <p>No choices for this poll</p>
+{% endfor %}

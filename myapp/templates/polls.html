@@ -1,0 +1,7 @@
+<h1>Polls</h1>
+
+{% for poll in polls %}
+  <p><a href="{% url poll poll.key.id %}">{{ poll.question }}</a></p>
+{% empty %}
+  <p>No polls yet. Add them through the appengine management console</p>
+{% endfor %}
