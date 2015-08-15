@@ -1,4 +1,4 @@
-= Stock Django on Appengine
+# Stock Django on Appengine
 
 This is a fairly simple Django project that illustrates how to create a Django
 project that runs on Google Appengine.
